@@ -1,0 +1,29 @@
+
+public class ICICIBank1 extends GeneralBank1
+{
+	
+        public ICICIBank1(int SavingInterestRate,double FixedInterestRate)	
+        {
+        	 super(SavingInterestRate, FixedInterestRate);	
+        }
+        
+     
+
+		public int getSavingInterestRate()
+	    {
+			return SavingInterestRate;
+		}
+		public void setSavingInterestRate(int savingInterestRate) 
+		{
+			SavingInterestRate = savingInterestRate;
+		}
+		
+		public double getFixedInterestRate() 
+		{
+			return FixedInterestRate;
+		}
+		public void setFixedInterestRate(double fixedInterestRate) 
+		{
+			FixedInterestRate = fixedInterestRate;
+		}
+}
